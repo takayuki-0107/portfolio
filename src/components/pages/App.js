@@ -1,15 +1,13 @@
 import React from 'react';
 
-import Layout from '../organisms/Layout';
+// import Layout from '../organisms/Layout';
 
-import GlobalStyle from '../styles/GlobalStyle';
+import GlobalStyle from '../../styles/GlobalStyle';
 
 const App = () => {
   return (
     <>
-      <GlobalStyle>
-        <Layout></Layout>
-      </GlobalStyle>
+      <GlobalStyle />
     </>
   );
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Global, css } from '@emotion/styled';
+import { Global, css } from '@emotion/core';
 
 const resetStyle = css`
   /*!
@@ -305,7 +305,7 @@ const baseStyle = css`
   }
   body {
     font-size: 1.6em;
-    font-family: 'Kameron', 'Noto Sans JP', sans-serif;
+    font-family: 'Cormorant', '游明朝体', sans-serif;
   }
   img {
     max-width: 100%;
