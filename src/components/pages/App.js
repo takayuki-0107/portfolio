@@ -1,7 +1,17 @@
 import React from 'react';
 
-function App() {
-  return <div className="App"></div>;
-}
+import Layout from '../organisms/Layout';
+
+import GlobalStyle from '../styles/GlobalStyle';
+
+const App = () => {
+  return (
+    <>
+      <GlobalStyle>
+        <Layout></Layout>
+      </GlobalStyle>
+    </>
+  );
+};
 
 export default App;
