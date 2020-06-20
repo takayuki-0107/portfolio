@@ -4,11 +4,11 @@ import SectionTitle from '../atoms/SectionTitle';
 
 import Color from '../../styles/Color';
 import SkillCard from '../molecules/card/SkillCard';
-// import Typograph from '../../styles/Typograph';
 
 const Skill = styled.div`
   width: 100%;
   background-color: ${Color.Main};
+  padding-top: 10rem;
 `;
 const CardContainer = styled.div`
   margin: 0 auto;

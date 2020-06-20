@@ -9,7 +9,7 @@ import ProfileName from '../atoms/ProfileName';
 import Color from '../../styles/Color';
 
 const Profile = styled.div`
-  padding: 5rem 0;
+  padding-top: 10rem;
   background-color: ${Color.Main};
 `;
 const ProfileContent = styled.div`
