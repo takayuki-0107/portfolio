@@ -15,6 +15,6 @@ const SectionTitle = styled.h2`
   margin-bottom: 5rem;
 `;
 
-export default () => {
-  return <SectionTitle>Profile</SectionTitle>;
+export default ({ children }) => {
+  return <SectionTitle>{children}</SectionTitle>;
 };

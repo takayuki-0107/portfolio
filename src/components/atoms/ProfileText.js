@@ -17,7 +17,7 @@ const ProfileText = styled.div`
     border-radius: 10px;
     box-shadow: inset -3px -4px 5px #babecc, inset 4px 5px 10px #f5f5f5;
     padding: 2rem 4rem;
-    width: 350px;
+    width: 400px;
   }
   p {
     margin-bottom: 1.5rem;

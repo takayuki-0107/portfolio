@@ -22,7 +22,7 @@ const ProfileContent = styled.div`
     max-width: 80%;
   }
   @media (min-width: 960px) {
-    width: 750px;
+    width: 800px;
     max-width: 80%;
   }
 `;
@@ -52,7 +52,7 @@ const Inner = styled.div`
 export default () => {
   return (
     <Profile>
-      <SectionTitle />
+      <SectionTitle>Profile</SectionTitle>
       <ProfileContent>
         <Inner>
           <div>
