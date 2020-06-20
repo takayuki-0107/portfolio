@@ -15,7 +15,7 @@ const Header = styled.h1`
   background-color: ${Color.White};
   box-shadow: 0 3px 3px ${Color.Text};
   padding: 0 2rem;
-  /* z-index: 10; */
+  z-index: 10;
 `;
 const Inner = styled.div`
   display: flex;

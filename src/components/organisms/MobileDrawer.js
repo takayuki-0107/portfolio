@@ -2,7 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 import MobileNavList from '../molecules/MobileNavList';
-import SnsLink from '../molecules/SnsLink';
+import { TISnsLink, FGSnsLink } from '../molecules/SnsLink';
 
 import Color from '../../styles/Color';
 import HeaderTitle from '../atoms/HeaderTitle';
@@ -36,7 +36,8 @@ export default ({ toggle, handleToggle }) => {
             <Inner>
               <HeaderTitle />
               <MobileNavList />
-              <SnsLink />
+              <TISnsLink />
+              <FGSnsLink />
             </Inner>
           </MobileDrawer>
         </>
